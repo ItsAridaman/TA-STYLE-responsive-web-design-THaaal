@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.html
+{
+    font-size: 16px;
+}
+.container
+{
+    max-width: 85%;
+    margin: 0 auto;
+    width: 100%;
+    }
+.header
+{
+    background-color: rgb(12, 12, 31);
+}
+.header-div
+{
+    padding: 20px 00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-ul
+{
+    display: flex;
+}
+.header-ul .green
+{
+    color: rgb(25, 201, 25);
+    font-weight: 600;
+}
+.header-ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.section-1
+{
+    background-color: rgb(183, 216, 218);
+}
+.main-div-section-1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 00;
+    }
+.section-1-a, .section-1-b
+{
+    width: 48%;
+    box-sizing: border-box;
+    height: auto;
+}
+.section-1-b img
+{
+    width: 100%;
+    height: 100%;
+}
+.h1
+{
+font-size: 35px;
+color: black;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.p1
+{
+    font-size: 24px;
+    color: black;
+    margin: 20px 00;
+}
+.readmore
+{
+    background-color: rgb(35, 156, 35);
+    width: 150px;
+    border-radius: 4px;
+    padding: 8px 10px;
+    text-align: center;
+    margin-top: 10px;
+    }
+.readmore a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* ----------------------section-2------------------------- */
+.section-2
+{
+    padding: 50px 00;
+}
+.heading-2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+}
+.section-2-box
+{
+    width: 30%;
+    height: auto;
+}
+.section-2-box img
+{
+    width: 100%;
+}
+.h2 {
+    font-size: 22px;
+    color: black;
+    margin: 8px 00;
+    font-weight: 600;
+}
+.p2 {
+    font-size: 15px;
+    color: black;
+}
+.main-div-section-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.readmore-new
+{
+    margin-top: 8px;
+}
+.blog
+{
+    text-align: center;
+    padding: 20px 00;
+}
+/* ----------------------------footer---------------------------- */
+.footer
+{
+    background-color: rgb(4, 4, 26);
+    padding: 20px 00;
+   }
+.footer-h
+{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.footer-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-nav a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 6px;
+
+}
+/* --------------------------------------- */
+
+@media screen and (max-width:768px)
+{
+    .header-div
+{
+    padding: 20px 00;
+    display: flex;
+    flex-direction: column;
+}
+.header-nav
+{
+    margin-top: 8px;
+}
+.header-ul a
+{
+        font-size: 17px;
+        margin: 00 8px;
+       }
+.main-div-section-1
+{
+    flex-direction: column-reverse;
+}
+.section-1-a, .section-1-b
+{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+.main-div-section-2
+{
+    display: flex;
+    flex-direction: column;
+}
+.section-2-box
+{
+    width: 100%;
+    margin: 20px 00;
+    margin-bottom: 30px;
+}
+.p2 {
+    font-size: 20px;
+    margin: 15px 00;
+}
+.footer-div 
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-h
+{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+.footer-nav a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin-left: 6px;
+}
+.footer-nav
+{
+    margin-top: 10px;
+}
+}
