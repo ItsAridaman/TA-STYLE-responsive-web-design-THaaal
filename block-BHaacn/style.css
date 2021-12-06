@@ -1,0 +1,718 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+    height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container
+{
+	max-width: 80%;
+	margin: 0 auto;
+	width: 100%;
+}
+.flex
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-2
+{
+	display: flex;
+	justify-content: space-between;
+}
+.main-header input,.main-header label
+{
+display: none;
+}
+/* -----------------------header------------------------- */
+.main-header
+{
+	padding: 20px 00;
+}
+.header-1
+{
+	font-size: 35px;
+	color: rgb(255, 254, 254);
+	font-weight: 700;
+}
+.header-ul a
+{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin: 0 10px;
+	font-size: 18px;
+	margin-right: 14px;
+	font-weight: 500;
+}
+.joinus
+{
+	background-color: rgb(187, 8, 38);
+	width: 80px;
+	padding: 6px 8px;
+	justify-content: center;
+}
+.joinus a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+/* ------------------------section-1------------------------ */
+.main-div-section-1
+{
+	padding: 50px 00;
+}
+.h-section-1
+{
+	font-size: 45px;
+	color: rgb(252, 252, 252);
+	font-weight: 700;
+}
+.h-section-1 strong
+{
+	font-size: 50px;
+	color: rgb(187, 8, 38);
+	font-weight: 700;
+	margin-left: 5px;
+	}
+.p-section-1
+{
+	font-size: 18px;
+	color: rgb(253, 253, 253);
+	margin: 55px 00;
+	font-weight: 300;
+}
+.register-now
+{
+	width: 110px;
+}
+.section-1-a
+{
+	width: 52%;
+}
+.top
+{
+	background:linear-gradient(rgba(178, 67, 230, 0.6) ,rgba(17, 92, 231, 0.6)),url("assets/banner.png");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+/* ---------------------section-3---------------------- */
+
+.main-div-section-2
+{
+	padding: 50px 00;
+}
+.section-2-a, .section-2-b
+{
+	width: 45%;
+}
+.h-about
+{
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+.p-about
+{
+	font-size: 18px;
+	color: black;
+	font-weight: 500;
+	margin: 20px 00;
+}
+.section-2-a img
+{
+	width: 100%;
+	height: 100%;
+	}
+/* ------------------------------section-4---------------------- */
+.main-div-section-4
+{
+	flex-direction: column;
+}
+.box-4
+{
+	width: 28%;
+	border: 2px dashed rgb(187, 8, 38);
+	padding: 10px;
+	flex-direction: column;
+	position: relative;
+}
+.h-section-4
+{
+	font-size: 32px;
+	color: black;
+	font-weight: 700;
+}
+.Number-4
+{
+	font-size: 30px;
+	color: rgb(187, 8, 38);
+	font-weight: 700;
+}
+.h1-section-4
+{
+	font-size: 26px;
+	color: black;
+	font-weight: 700;
+	margin-top: 25px;
+}
+.p-4
+{
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+	margin: 15px 00;
+}
+.number 
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color:rgb(255, 255, 255);
+	justify-content: center;
+	position: absolute;
+	top: -20px;
+	left: 30px;
+}
+.section-4-b
+{
+	margin-top: 50px;
+}
+.section-4
+{
+	padding: 50px 00;
+}
+/* -------------------------section-5----------------------- */
+.section-5-b-1
+{
+	width: 17%;
+}
+.section-5-b-2
+{
+	width: 20%;
+}
+.section-5-b-3
+{
+	width: 52%;
+}
+.section-5-b-2 img
+{
+	width: 100%;
+	border-radius: 4px;
+}
+.h-section-5
+{
+	font-size: 26px;
+	color: black;
+	font-weight: 700;
+}
+.section-5-a
+{
+	text-align: center;
+	padding-bottom: 45px;
+}
+.section-5-b-1
+{
+	background-color: rgb(187, 8, 38);
+	border-radius:50%;
+	justify-content: center;
+	padding: 6% 00;
+}
+.h-a
+{
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+}
+.h-m
+{
+	font-size: 19px;
+	color: black;
+	font-weight: 700;
+}
+.p-m
+{
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+	margin-top: 8px;
+}
+.dots
+{
+	border-left: 3px dashed rgb(187, 8, 38);
+	width: 4px;
+	height: 60px;
+	margin-left: 9%;
+	
+}
+.section-5-b
+{
+	flex-direction: column;
+}
+.section-5-b-a-1
+{
+	flex-direction: row;
+}
+.section-5-b-a-2
+{
+	margin-left: 0;
+}
+.section-5-b-1-new
+{
+	background-color: white;
+	border: 3px dashed rgb(187, 8, 38);
+}
+.h-a-2
+{
+	color: rgb(187, 8, 38);
+}
+.section-5-c a
+{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+.section-5-c
+{
+	background-color: rgb(187, 8, 38);
+	width: 150px;
+	padding: 8px 8px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.main-div-section-5
+{
+	padding: 50px 00;
+}
+/* -------------------------section-6----------------------- */
+.section-6
+{
+	background-color: rgb(180, 203, 204);
+	padding: 50px 00;
+}
+.box-6
+{
+	width: 21%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-radius: 3px;
+}
+.count
+{
+	font-size: 22px;
+	color: black;
+	font-weight: 700;
+}
+.count-h
+{
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+}
+.box-6:hover
+{
+	background-color:rgb(187, 8, 38);
+	font-display: white;
+	box-shadow: 1px 1px 12px 1px rgb(253, 255, 255);
+	
+}
+.count-h:hover
+{
+	color: rgb(248, 247, 247);
+}
+.count:hover
+{
+	color: rgb(248, 247, 247);
+}
+
+/* --------------------------------section-7--------------------------- */
+
+.main-div-section-7
+{
+	background-image: url("assets/banner.png");
+	border: 3px solid green;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50%;
+}
+.section-7, .section-8
+{
+	padding: 50px 00;
+}
+/* ------------------------section-8---------------------- */
+.section-8{
+	background-color:rgb(180, 203, 204) ;
+}
+.main-div-section-8
+{
+	flex-direction: column;
+}
+.section-8-b 
+{
+	flex-direction: column;
+	width: 31%;
+}
+.section-8-b  img
+{
+	width: 100%;
+}
+.h-8
+{
+	font-size: 20px;
+	color: black;
+	font-weight: 700;
+	margin-top: 6px;
+}
+.p-8
+{
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+	margin: 15px 00;
+}
+.section-8-b a:hover
+{
+color: rgb(235, 35, 68);
+}
+.section-8-b a
+{
+	font-weight: 700;
+}
+.section-8-a
+{
+	margin-bottom: 30px;
+}
+.red-1
+{
+	color: rgb(235, 35, 68);
+}
+/* ---------------------footer-------------------- */
+.footer{
+	background-color: rgb(10, 10, 65);
+
+}
+.main-div-footer-part-1
+{
+	padding: 30px 00;
+}
+.footer-part-2
+{
+	padding: 20px 00;
+	color: rgb(126, 119, 119);
+	font-size: 15px;
+	text-align: center;
+	font-weight: 300;
+}
+.footer-box
+{
+	width: 30%;
+}
+.h-footer
+{
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+}
+.ul a
+{
+	text-decoration: none;
+	color: rgb(126, 119, 119);
+	font-size: 15px;
+	margin-right: 6px;
+
+}
+.footer-ul,.footer-links
+{
+	margin-top: 10px;
+}
+.footer-links i
+{
+	font-size: 24px;
+	color: white;
+	margin-right: 8px;
+}
+
+/* ----------------------------------------------------------- */
+
+@media screen and (max-width: 769px) {
+	
+.main-div-section-1
+{
+	flex-direction: column;
+}
+
+}
+@media screen and (max-width: 1017px) {
+	
+ .input, .label
+ {
+    display: none;
+}
+.footer-part-1
+{
+margin-left: 60px;
+}
+.main-div-section-1
+{
+flex-direction: column;
+}
+.section-1-a,.section-1-b{
+		width: 80%;
+		text-align: center;
+		margin-bottom: 15px;
+		height: auto;
+}
+.section-1-b img
+{
+width: 100%;
+}
+.register-now
+{
+	margin: 0 auto;
+}
+.dots
+{
+		display: none;
+}
+.section-5-b-a-1
+{
+     	display: inline-block;
+		text-align: center;
+		margin-bottom: 60px;
+}
+.section-5-b-1,.section-5-b-2
+{
+		display: inline-block;
+}
+.section-5-b-3
+{
+		margin: 0 auto;
+		margin-top: 60px;
+}
+.section-5-b-1
+ {
+	width: 17%;
+     
+}
+.section-5-b-2
+{
+	width: 40%;
+}
+.section-5-b-2 img
+{
+  margin-bottom: -27%;
+  margin-left: 10%;
+}
+.h-a
+{
+	font-size: 20px;
+	font-weight: 700;
+}
+.main-header,.header-2
+{
+	flex-direction: column;
+}
+.h-section-1
+{
+	font-size: 32px;
+}
+.h-section-1 strong
+{
+	font-size: 32px;
+}
+.header-ul a
+{
+	font-size: 14px;
+}
+.main-div-section-2
+{
+	flex-direction: column-reverse;
+}
+.section-2-a,.section-2-b
+{
+	width: 100%;
+	margin-top: 8%;
+}
+.section-4-b,.main-div-footer-part-1,.ul
+{
+	flex-direction: column;
+}
+.main-div-section-6
+{
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.box-4,.section-8-b,.footer-box
+{
+	width: 90%;
+	margin-bottom: 7%;
+}
+.box-6
+{
+width: 40%;
+}
+.box-8
+{
+	flex-direction: column;
+}
+.section-8-b
+{
+	width: 90%;
+	margin-bottom: 12%;
+}
+.footer-box
+{
+text-align: center;}
+}
+
+@media screen and (max-width: 715px) {
+.section-5-b-a-1
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-5-b-1
+{
+	width: 20%;
+	margin-bottom: 5%;
+}
+.section-5-b-2
+{
+	width: 65%;
+	margin-bottom: 20%;
+	margin: 0 auto;
+}
+.section-5-b-2 img
+{
+	margin-left: 0;
+}
+.section-5-b-3
+{
+	margin-top: 50px;
+}
+.h-a
+{
+	font-size: 12px;
+}
+.footer-part-1
+{
+margin-left: 30px;
+}
+}
+@media screen and (max-width: 500px)
+ {
+ .header-2
+ {
+		 display: none;
+}
+ #toggle:checked ~ .header-2
+{
+	 display: inline-block;
+}
+.main-header
+{
+		 flex-direction: row;
+}
+input 
+{
+	 display: none;
+}
+ label
+ {
+		 font-size: 25px;
+         color: white;
+		 z-index: 99;
+		 display: inline-block;
+}
+.header-2
+ {
+	  position: fixed;
+	  background-color: rgb(15, 15, 61, 0.9);
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+}
+.header-div-ul
+{
+text-align: center;
+align-items: center;
+height: 60vh;
+}	  
+.header-ul
+{
+		flex-direction: column;
+        margin: 0 auto;
+		height: 30vh;
+		margin-top: 40px;
+}
+.joinus
+{
+		flex-direction: column;
+        margin: 0 auto;
+}
+.header-1
+{
+		z-index: 99;
+		font-size: 25px;
+}
+.h-section-1
+{
+		font-size: 25px;
+}
+.main-header label
+{
+	display: inline-block;
+}
+
+}
